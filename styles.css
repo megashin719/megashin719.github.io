@@ -33,8 +33,8 @@ header {
     display: flex;
 }
 
-.headerinfo > img {
-    margin-top: ;
+.headerinfo > ul > li > a > img {
+    margin-top:5px ;
 }
 
 .icon img {
