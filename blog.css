@@ -122,6 +122,13 @@ footer h4 {
     font-weight: lighter;
 }
 
+footer h5 {
+    text-align: center;
+    margin: 1px;
+    font-weight: unset;
+    color: rgb(44, 44, 48);
+}
+
 .btn-square {
     display: inline-block;
     padding: 0.5em 1em;
