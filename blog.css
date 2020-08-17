@@ -1,0 +1,199 @@
+body {
+    color:#333 ;
+    font-family: Verdana, sans-serif;
+    margin: 0;
+
+}
+
+header {
+    background-color: #efefef;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.h {
+    /* background-color: pink; */
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    /* background-color: skyblue; */
+}
+
+.headerinfo {
+    /* background-color: tomato; */
+    margin-left: 32px;
+}
+
+.headerinfo > ul > li {
+    display: flex;
+}
+  
+.headerinfo > ul > li > a > img {
+    margin-top:5px ;
+}
+
+.icon img {
+    /* border-radius: 20px; */
+    border-radius: 50%;
+    border-width: 4px;
+    border-style: solid;
+    border-color: skyblue;
+}
+
+.headerinfo h1 {
+    font-weight: normal;
+    font-size: 24px;
+    margin: 0;
+}
+
+.headerinfo p {
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.headerinfo ul {
+    margin: 0;
+ list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.headerinfo li {
+    margin-right: 8px;
+}
+
+.works {
+    width: 29em;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0.5em 5em;
+    margin: 2em 0em;
+    background: #f0f7ff;
+    border: dashed 2px #5b8bd0;/*点線*/
+    margin: 50px auto;
+}
+
+.works > h1 {
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 0.2em 0.5em;
+    margin: 2em 0;
+    background: #d6ebff;
+    box-shadow: 0px 0px 0px 10px #d6ebff;
+    border: dashed 2px white;
+}
+
+.works > section {
+    margin-bottom: 60px;
+    padding: 0.5em 1em;
+    margin: 2em auto;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+    width: 25em;
+}
+
+.works > section > h1 {
+    font-weight: unset;
+    color: indigo;
+    margin-bottom: 50px;
+}
+
+
+
+footer p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 60px;
+    color: gray;
+}
+
+footer h4 {
+    text-align: center;
+    font-weight: lighter;
+}
+
+.btn-square {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #668ad8;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+  }
+  .btn-square:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+  }
+
+
+
+  <style type="text/css">
+  div#sampleCalender2 {
+      height:100%;
+  }
+  div#sampleCalender2 .the_date {
+      float:left;
+      display:block;
+      width:4.5em;
+      margin:0 10px; padding:0;
+      text-align:center;
+      overflow:hidden;
+  }
+  div#sampleCalender2 .blue {
+      background-color:skyblue;
+      border-radius:7px;
+  }
+  
+  div#sampleCalender2 .date_m {
+      display:block;
+      margin:3px 0; padding:0;
+      color:#fff;
+      font-weight: normal;
+      text-align:center;
+  }
+  div#sampleCalender2 .date_d {
+      display:block;
+      margin:5px; padding:5px 0;
+      background-color:#fff;
+      font-size:1.3em;
+      font-weight: normal;
+      text-align:center;
+      color:#666;
+  }
+</style>
+
+p {
+    margin: 0;
+    padding: 0;
+}
+.works p {
+    line-height: 0.6;
+}
+
+.manga2 {
+    margin-top: 25px;
+}
+
+.manga2 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    border-top: solid 2px #000000b7;
+}
+.manga2 {
+    margin: 0; 
+    padding: 0;
+}
