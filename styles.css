@@ -7,8 +7,8 @@ body {
 
 header {
     background-color: #efefef;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    /* padding-top: 32px;
+    padding-bottom: 32px; */
 }
 
 .h {
@@ -19,20 +19,38 @@ header {
     display: flex;
     align-items: center;
 }
+.h {
+    /* background-color: pink; */
+    width:auto;
+    padding-bottom: 50px;
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../Myportfolio/IMG-0182.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
 
 .icon {
     /* background-color: skyblue; */
+    margin-left: auto;
 }
 
 .headerinfo {
     /* background-color: tomato; */
+    margin-right: auto;
     margin-left: 32px;
+    color: ivory;
 }
 
 .headerinfo > ul > li {
     display: flex;
 }
-
+  
 .headerinfo > ul > li > a > img {
     margin-top:5px ;
 }
